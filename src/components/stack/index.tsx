@@ -5,7 +5,7 @@ type Direction = 'horizontal' | 'vertical'
 
 type StackProps = {
   direction?: Direction
-  gap?: number | string
+  gap?: number | string // これもxs | smみたいにしたい
   children: ReactNode
   className?: string
 }
