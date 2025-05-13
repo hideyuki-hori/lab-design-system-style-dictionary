@@ -1,0 +1,23 @@
+.stack {
+  display: flex;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.gap-sm {
+  gap: 4px;
+}
+
+.gap-md {
+  gap: 8px;
+}
+
+.gap-lg {
+  gap: 16px;
+}

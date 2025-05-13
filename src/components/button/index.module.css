@@ -1,0 +1,26 @@
+.button {
+  font: var(--typography-body);
+  border-radius: var(--button-border-radius);
+  padding: var(--card-padding);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.primary {
+  background-color: var(--button-primary-background);
+  color: var(--button-primary-text);
+}
+
+.primary:hover {
+  background-color: var(--accent-bg);
+}
+
+.secondary {
+  background-color: var(--colors-gray-300);
+  color: var(--colors-black);
+}
+
+.secondary:hover {
+  background-color: var(--colors-gray-400);
+}
